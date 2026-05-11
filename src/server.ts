@@ -8,7 +8,7 @@ import Product from './models/product';
 dotenv.config();
 
 const app = express();
-const port = process.env.PORT || 3000;  // Use PORT from .env or default to 3000
+const port = process.env.PORT || 5000;  // Use PORT from .env or default to 3000
 const mongoUri = process.env.MONGO_URI;
 console.log("MONGO_URI:", process.env.MONGO_URI);
 
